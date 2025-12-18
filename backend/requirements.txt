@@ -1,0 +1,21 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# PDF processing
+PyMuPDF==1.23.8
+
+# Vector store and embeddings
+chromadb>=0.4.22  # Use >=0.4.22 for Windows compatibility (has pre-built wheels)
+sentence-transformers>=5.0.0  # Updated for compatibility with newer huggingface_hub
+tf-keras  # Required for transformers compatibility (sentence-transformers uses PyTorch, but transformers still needs tf-keras)
+
+# Groq SDK
+groq>=1.0.0  # Updated for compatibility with newer httpx
+
+# Utilities
+python-dotenv==1.0.0
+

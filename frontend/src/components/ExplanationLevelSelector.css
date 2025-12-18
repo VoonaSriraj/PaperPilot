@@ -1,0 +1,57 @@
+.level-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.level-selector-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.level-buttons {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem;
+  border-radius: 8px;
+}
+
+.level-button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.level-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.level-button.active {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.level-icon {
+  font-size: 1rem;
+}
+
+.level-label {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .level-label {
+    display: inline;
+  }
+}
+
