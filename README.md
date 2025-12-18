@@ -1,8 +1,8 @@
-# PaperLens - AI Research Paper Explainer Bot
+# PaperPilot - AI Research Paper Explainer Bot
 
 A production-ready, domain-specific AI Research Paper Explainer Bot that allows users to upload research paper PDFs and ask questions about them. The system uses Retrieval Augmented Generation (RAG) with Groq LLaMA-3, ChromaDB vector store, and Sentence-Transformers embeddings to provide accurate, context-aware explanations at multiple complexity levels.
 
-![PaperLens](https://img.shields.io/badge/AI-PaperLens-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green) ![React](https://img.shields.io/badge/React-18.2-blue) ![Groq](https://img.shields.io/badge/Groq-LLaMA--3-orange)
+![PaperPilot](https://img.shields.io/badge/AI-PaperLens-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green) ![React](https://img.shields.io/badge/React-18.2-blue) ![Groq](https://img.shields.io/badge/Groq-LLaMA--3-orange)
 
 ## Features
 
@@ -341,4 +341,5 @@ For issues and questions:
 ---
 
 Built with ❤️ for researchers and students who want to understand papers better.
+
 
