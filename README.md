@@ -2,7 +2,7 @@
 
 A production-ready, domain-specific AI Research Paper Explainer Bot that allows users to upload research paper PDFs and ask questions about them. The system uses Retrieval Augmented Generation (RAG) with Groq LLaMA-3, ChromaDB vector store, and Sentence-Transformers embeddings to provide accurate, context-aware explanations at multiple complexity levels.
 
-![PaperPilot](https://img.shields.io/badge/AI-PaperLens-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green) ![React](https://img.shields.io/badge/React-18.2-blue) ![Groq](https://img.shields.io/badge/Groq-LLaMA--3-orange)
+![PaperPilot](https://img.shields.io/badge/AI-PaperPilot-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green) ![React](https://img.shields.io/badge/React-18.2-blue) ![Groq](https://img.shields.io/badge/Groq-LLaMA--3-orange)
 
 ## Features
 
@@ -34,7 +34,7 @@ A production-ready, domain-specific AI Research Paper Explainer Bot that allows 
 ## Project Structure
 
 ```
-PaperLens/
+PaperPilot/
 ├── backend/
 │   ├── app/
 │   │   ├── api/
@@ -253,8 +253,8 @@ Health check endpoint.
 
 ```bash
 cd backend
-docker build -t paperlens-backend .
-docker run -p 8000:8000 -e GROQ_API_KEY=your_key paperlens-backend
+docker build -t PaperPilot-backend .
+docker run -p 8000:8000 -e GROQ_API_KEY=your_key PaperPilot-backend
 ```
 
 #### Frontend
@@ -341,5 +341,6 @@ For issues and questions:
 ---
 
 Built with ❤️ for researchers and students who want to understand papers better.
+
 
 
