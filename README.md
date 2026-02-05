@@ -340,7 +340,8 @@ For issues and questions:
 
 ---
 
-Built with ❤️ for researchers and students who want to understand papers better.
+Built for researchers and students who want to understand papers better.
+
 
 
 
